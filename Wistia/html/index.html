@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Wistia</title>
+</head>
+
+<body>
+    <container>
+        <header>
+            <div class="hb">
+                <nav id="nav" class="navbar navbar-expand-lg navbar-light ">
+                    <div class="container-fluid" style="padding-left: 7%; padding-right: 7%;">
+                        <a class="navbar-brand" href="#">
+                            <svg height="38" role="img" viewBox="-6.5 -8.9 145.45 38.4" id="icon" class="jsx-2111810157 WistiaLogo Navbar__logo"><title class="jsx-2111810157">Wistia</title><g fill="white" class="jsx-2111810157"><path d=" M15.37 19.26c-3.45.95-11.23.49-12.48.49H0l4.76-5.37c1.29-1.45 2-1.75 3.39-1.75s4.77.14 6.58 0A18.14 18.14 0 0022 10.64c2.95-1.86 3.54-3 3.54-3s1.05 8.53-10.17 11.62z " class="jsx-2111810157"></path><path d=" M25.19 4.19C25.73.9 23.87 0 23.87 0S24 2.68 19 3.25c-4.37.5-19 .12-19 .12l4.71 5.4a4 4 0 003.39 1.74 60.59 60.59 0 006.75-.1 15.8 15.8 0 008-2.7 6 6 0 002.34-3.52z " class="jsx-2111810157"></path></g><g class="jsx-2111810157"><path d=" M56.56.25h3.09l-7.9 19.61h-.82L44.76 4.51l-6.24 15.35h-.81v-.1L29.84.25H33l5.18 13 5.23-13h2.81l5.25 13zm6.06 19.53h3.07V.25h-3.07zM77.84 9.16l-2.1-1.24a8.29 8.29 0 01-2-1.55 2.31 2.31 0 01-.6-1.52 1.73 1.73 0 01.8-1.46 3.59 3.59 0 012.12-.59 6.23 6.23 0 014.36 2l.27.26V1.43l-.07-.05A7.91 7.91 0 0076.1 0a6 6 0 00-4.19 1.46 4.89 4.89 0 00-1.63 3.8A4.67 4.67 0 0071.14 8 9.72 9.72 0 0074 10.44l2.09 1.27c1.62 1 2.45 2.08 2.45 3.19a2.08 2.08 0 01-.8 1.68 3.11 3.11 0 01-2 .68 6.35 6.35 0 01-5-2.76l-.29-.36v4h.07A8.62 8.62 0 0075.71 20a5.83 5.83 0 004.13-1.49 5.07 5.07 0 001.6-3.87c0-2.21-1.21-4.06-3.6-5.48zM83.72 3h5.8v16.78h3.08V3h5.91V.22H83.72zm18.12 16.79h3.07V.25h-3.07zm25.31 0H124l-2.56-5.69h-8L111 19.78h-3.18l.1-.22L116.25.14h2.14zM117.3 4.93l-2.64 6.39h5.49z " fill="white" class="jsx-2111810157"></path></g></svg>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link active dropdown-toggle" id="na1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Product
+                        </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link active dropdown-toggle" id="na2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Learning Center
+                        </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link active dropdown-toggle" id="na3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Original Series
+                        </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link active dropdown-toggle" id="na4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          About
+                        </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div clas="nf">
+                                <form>
+                                    <button class="btn btn-outline-success" id="bn1" type="submit">Login</button>
+                                    <button class="btn btn-outline-success" id="bn2" type="submit">Get started</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+                <div class="an">
+                    <div class="container"></div>
+                    <div class="row">
+                        <div class="col-4">
+                            <div>
+                                <h1 class="h1">Let your videos </h1>
+                                <h1 class="h1">do the work</h1>
+                            </div>
+                            <h3>Video marketing software that makes it easy to find, engage, and grow your audience.</h3>
+                            <form>
+                                <button id="hbt1" type="button" class="btn btn-primary">Try for free</button>
+                                <button id="hbt2" type="button" class="btn btn-primary">Watch video</button>
+
+                            </form>
+                        </div>
+
+                        <div class="col" style="padding-left:50px"><img src="C:\Users\MM\OneDrive\Desktop\final-laptop.png " style="
+                            width: 700px;
+                        "> </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </header>
+        <div class="hf">
+            <div style="
+        display: flex;
+        justify-content: center;
+        padding:25px
+    ">
+                <div class="new"><a id="ahf">🎉NEW</a>
+                </div>
+                <a id="ahf2">Podcasting is here! Now the tools you love for video are here for audio.<span style="text-decoration: underline;">Learn more</span> →</a>
+
+            </div>
+
+
+        </div>
+        <main>
+            <div class="mp1" style="
+            padding-top: 5pc;">
+                <p style="
+                font-size: 40px;
+                text-align: center;
+            ">Tools you need to build your brand and your business with video
+                </p>
+                <button type="button" id="btm1" class="btn btn-outline-primary">Learn more</button>
+                <div class="container" style="
+                padding-top: 5%;
+            ">
+                    <div class="row">
+                        <div class="col">
+                            <svg class="Icon" height="40px" width="60px" fill="currentColor" viewBox="0 0 120 80" style="color: rgb(23, 75, 210);"><g><path d="M87.5,60h-55c-2.8,0-5-2.2-5-5V5c0-2.8,2.2-5,5-5h55c2.8,0,5,2.2,5,5v50C92.5,57.8,90.3,60,87.5,60z M37.5,50 h45V10h-45V50z"></path></g><g><path d="M55.3,40.5l14.1-8.7c1.6-1,1.6-3.3,0-4.3l-14.1-8.3c-1.7-1-3.8,0.2-3.8,2.2v17C51.4,40.4,53.6,41.6,55.3,40.5z"></path></g><g><path d="M84.1,80c-1.3,0-2.6-0.5-3.5-1.5c-11.4-11.4-29.9-11.4-41.2,0c-2,2-5.1,2-7.1,0c-2-2-2-5.1,0-7.1 c15.3-15.3,40.1-15.3,55.4,0c2,2,2,5.1,0,7.1C86.7,79.5,85.4,80,84.1,80z"></path></g><g><path d="M5,60c-1.7,0-3.4-0.9-4.3-2.5c-1.4-2.4-0.6-5.4,1.8-6.8l12.1-7c2.4-1.4,5.4-0.6,6.8,1.8s0.6,5.4-1.8,6.8 l-12.1,7C6.7,59.8,5.9,60,5,60z"></path></g><g><path d="M17.1,17c-0.8,0-1.7-0.2-2.5-0.7l-12.1-7C0.1,7.9-0.7,4.9,0.7,2.5C2,0.1,5.1-0.7,7.5,0.7l12.1,7 c2.4,1.4,3.2,4.4,1.8,6.8C20.5,16.1,18.8,17,17.1,17z"></path></g><g><path d="M17.1,35H5c-2.8,0-5-2.2-5-5s2.2-5,5-5h12.1c2.8,0,5,2.2,5,5S19.9,35,17.1,35z"></path></g><g><path d="M102.9,17c-1.7,0-3.4-0.9-4.3-2.5c-1.4-2.4-0.6-5.4,1.8-6.8l12.1-7c2.4-1.4,5.5-0.6,6.8,1.8 c1.4,2.4,0.6,5.4-1.8,6.8l-12.1,7C104.6,16.8,103.7,17,102.9,17z"></path></g><g><path d="M115,60c-0.8,0-1.7-0.2-2.5-0.7l-12.1-7c-2.4-1.4-3.2-4.4-1.8-6.8c1.4-2.4,4.4-3.2,6.8-1.8l12.1,7 c2.4,1.4,3.2,4.4,1.8,6.8C118.4,59.1,116.7,60,115,60z"></path></g><g><path d="M115,35h-12.1c-2.8,0-5-2.2-5-5s2.2-5,5-5H115c2.8,0,5,2.2,5,5S117.8,35,115,35z"></path></g></svg><br><br>
+                            <p style="font-size: 24px;">Offer the best viewing experience anywhere
+                            </p>
+                            <p>From a single video to an entire series, provide a picture-perfect, super-fast, and captivating viewing experience every time</p>
+                        </div>
+                        <div class="col">
+                            <svg class="Icon IconChartGrowth" height="40px" style="color:#fa4fa0" width="60px" fill="currentColor" viewBox="0 0 100 100"><g transform="translate(5.000000, 5.000000)"><path d=" M12.5425694,68.0001129 C9.51159393,67.980567 7.03663928,70.5009719 7.00854617,73.6357636 L7.00854617,84.9951219 C6.895191,87.0997453 7.9163591,89.0966617 9.6621407,90.1842836 C11.4079223,91.2719055 13.5920777,91.2719055 15.3378593,90.1842836 C17.0836409,89.0966617 18.104809,87.0997453 17.9914538,84.9951219 L17.9914538,73.6357636 C17.9637376,70.5352312 15.5403497,68.0287792 12.5425694,68.0001129 Z "></path><path d=" M34.5085139,62 C33.0409377,61.9999363 31.6342018,62.5897773 30.6012767, 63.6382951 C29.5683516,64.6868128 28.9949154,66.1070359 29.0085462, 67.5829933 L29.0085462,84.1607157 C28.895191,86.2073009 29.9163591, 88.1491493 31.6621407,89.2067783 C33.4079223,90.2644072 35.5920777, 90.2644072 37.3378593,89.2067783 C39.0836409,88.1491493 40.104809, 86.2073009 39.9914538,84.1607157 L39.9914538,67.5829933 C40.005064, 66.1099998 39.4339569,64.6923842 38.4047201,63.6443658 C37.3754833, 62.5963474 35.9731363,62.0044969 34.5085139,62 Z "></path><path d=" M79.5085271,45 C76.4662516,45 74,47.5380082 74,50.6687999 L74, 84.6464985 C74.1625906,87.6501362 76.5767584,90 79.5,90 C82.4232416,90 84.8374094,87.6501362 85,84.6464985 L85,50.6687999 C85.0000145, 47.5448493 82.5441404,45.0096717 79.5085271,45 Z "></path><path d=" M83.5299907,0 L61.1665646,0 C58.2019309,0.165444147 55.8825814, 2.6219825 55.8825814,5.59652928 C55.8825814,8.57107607 58.2019309, 11.0276144 61.1665646,11.1930586 L70.971134,11.1930586 C45.1258732, 44.8069414 6.02885325,44.8069414 5.28398313,44.8069414 C2.31934947, 44.9723856 3.84638119e-16,47.4289239 0,50.4034707 C-3.36558354e-16, 53.3780175 2.31934947,55.8345559 5.28398313,56 C8.00362519,56 50.8769634,55.8264642 78.8182541,20.824295 L78.8182541,28.4251627 C78.7029364,30.4989747 79.7417838,32.4666565 81.5177896,33.5383557 C83.2937954,34.6100549 85.5157645,34.6100549 87.2917704,33.5383557 C89.0677762,32.4666565 90.1066235,30.4989747 89.9913059,28.4251627 L89.9913059,6.02169197 C89.6036275,2.6984061 86.8666585,0.147658492 83.5299907,0 Z "></path><path d=" M56.5085139,53 C53.4709656,53 51.0085462,55.5242741 51.0085462, 58.638124 L51.0085462,85.0482838 C50.895191,87.1342748 51.9163591, 89.1135122 53.6621407,90.1915052 C55.4079223,91.2694983 57.5920777, 91.2694983 59.3378593,90.1915052 C61.0836409,89.1135122 62.104809, 87.1342748 61.9914538,85.0482838 L61.9914538,58.638124 C61.9914684, 55.5310782 59.5394103,53.0096193 56.5085139,53 Z "></path></g></svg><br><br>
+                            <p style="font-size: 24px;">Grow an audience and build your brand
+
+                            </p>
+                            <p>Get more views and grow your business with powerful video SEO and tools for creating smarter ads on search and social</p>
+                        </div>
+                        <div class="col">
+                            <svg class="Icon" height="40px" style="color:#fabe1e" width="60px" viewBox="0 0 120 80"><path d="M73.19 9.49l-10.56.28V5.49a5 5 0 00-5-5 5 5 0 00-5 5v42.32a16 16 0 1010 0V35.68h7.49a5 5 0 000-10h-7.49v-5.91l10.82-.28a5 5 0 00-.26-10zM57.63 69.07a6 6 0 01-6-6 6 6 0 016-6 6 6 0 010 12.07zM111.35 51.51a5.15 5.15 0 00-5.19-4.51 3.12 3.12 0 01-3.16-3.12v-.11a5.14 5.14 0 00-4.51-5.19 5 5 0 00-5.49 5v.33A3.12 3.12 0 0189.93 47a5.14 5.14 0 00-5.19 4.51 5 5 0 005 5.49h.22A3.11 3.11 0 0193 60.11v.12a5.15 5.15 0 004.51 5.19 5 5 0 005.49-5v-.33a3.12 3.12 0 013.16-3.09h.21a5 5 0 004.98-5.49zM34.92 24a7.15 7.15 0 01-7.15-7.15v-1.53a5.18 5.18 0 00-4.56-5.24 5 5 0 00-5.44 5v1.72a7.15 7.15 0 01-7.15 7.2 5.17 5.17 0 00-5.24 4.5 5 5 0 005 5.45h.26a7.15 7.15 0 017.15 7.15v1.48a5.18 5.18 0 004.55 5.24 5 5 0 005.45-5V41.1a7.15 7.15 0 017.13-7.1h.26a5 5 0 005-5.45A5.17 5.17 0 0034.92 24z" fill="currentColor"></path></svg><br><br>
+                            <p style="font-size: 24px;">Turn your videos into a marketing goldmine
+
+                            </p>
+                            <p>Your videos work harder with marketing automation integrations, lead capture, and features that help your audience stick around.</p>
+                        </div>
+                        <div class="col">
+                            <svg class="IconGlasses Icon" height="40px" style="color:#00c185" width="60px" viewBox="0 0 500 500"><g fill="none" id="1a7dab4f-540d-4d75-afc2-b993280ce0a2" stroke="currentColor" stroke-width="63"><circle cx="125" cy="310" r="90"></circle><line x1="215" x2="250" y1="310" y2="310"></line><path d="M35 310V210A120 120 0 0 1 155 100" stroke-linecap="round"></path></g><use transform="scale(-1 1), translate(-500 0)" xlink:href="#1a7dab4f-540d-4d75-afc2-b993280ce0a2"></use></svg><br><br>
+                            <p style="font-size: 24px;">Get insights you need to make better decisions
+
+                            </p>
+                            <p>Whether it’s with video heatmaps or play rates, go beyond measuring simple views to shape your video marketing strategy.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="mp2">
+                <div class="tmp2">
+                    <p style="font-size: 18px;
+                    font-weight: 700;">WISTIA STUDIOS
+                    </p>
+                    <p style="font-size: 40px;
+                    font-weight: 300;">From our studio to your screen
+                    </p>
+                    <p style="font-weight: 400;
+                    font-size: 20px;">Presented and promoted using our own product, watch or listen to all of our original video series and podcasts from Wistia Studios—made to inspire and inform marketers and creators alike.
+
+                    </p>
+                    <p style="color :#87acff;
+                    font-size: 20px;
+    font-weight: 400;">View all series →</p>
+                </div>
+                <div class="container" style="display: flex;
+                justify-content: space-around;
+                padding-top: 5%;
+">
+
+                    <div>
+                        <img src="..\img\ttl.JPG" style="height: 500px; border-radius: 6px;">
+                    </div>
+                    <div>
+                        <img src="..\img\WOS.JPG" style="height: 500px; margin-left: 20px;
+                    margin-right: 20px;border-radius: 6px;"></div>
+                    <div>
+
+                        <img src="..\img\otoh.JPG" style="height: 500px;border-radius: 6px;">
+                    </div>
+                </div>
+            </div>
+            <div class="mp3">
+                <div class="bmp3">
+                    <div class=container>
+                        <div class="row">
+                            <div class="col" style="margin: 50px;">
+                                <div class="new2"><a id="inew2">new</a><span style="
+                                    color: white;
+                                    font-size: 25px;
+                                    ">PODCASTING
+                                </span></div>
+                                <p style="    color: white;
+                                font-size: 40px;
+                                margin-top: 5%;
+                                ">Video, meet audio</p>
+                                <p style=" 
+                                color: white;
+                                font-size: 23px;
+                                 ">We just launched podcast support. Now you can use one platform (that's us!) to tell your brand's story with video and audio.
+
+                                </p>
+                                <button type="button " class="btn btn-warning btn-lg " style="margin-top: 5%;">Learn more</button>
+
+
+                            </div>
+                            <div class="col ">
+                                <img style=" height: 200px; margin-top: 20%; " src="..\img\rui.JPG ">
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div>
+                    <p style="
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 3%;
+">Wistia is proud to help more than 500,000 businesses grow with video
+                    </p>
+                    <div class="container">
+                        <div class="row" style="
+                        width: 1000px;
+                       
+                        margin-left: 13%;
+                    ">
+                            <div class="col">
+                                <img src="..\img\mailchimp.jpg" height="60" width="140">
+                            </div>
+                            <div class="col">
+                                <img src="..\img\moz.jpg">
+                            </div>
+                            <div class="col">
+                                <img src="..\img\zendesk.jpg">
+                            </div>
+                            <div class="col">
+                                <img src="..\img\casper.jpg">
+                            </div>
+                            <div class="col">
+                                <img src="..\img\unbounce.jpg">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div style="
+                margin-top: 10%;
+            ">
+                    <p style="
+                    text-align: center;
+                    font-size: 25px;
+                ">See more of what we’re up to at Wistia
+                    </p>
+                    <div class="container">
+                        <div class="row" style="
+                        margin-left: 3%;
+                    ">
+                            <div class="col">
+                                <img src="..\img\crr.png" style=" height: 250px;">
+                                <p style="
+                                margin-top: 3%;
+                            "><span style="
+                             font-size: 25px;
+                           ">Help During COVID-19 </span><br><br>We want to cover hosting costs for educators, healthcare providers, or nonprofits relying on video to serve the public good.<br><br><br> <span><a href="#" >Get more info</a></span></p>
+
+                            </div>
+                            <div class="col">
+                                <img src="..\img\final-laptop.png" style=" height: 250px;">
+                                <p style="
+                                margin-top: 3%;
+                                font-size: 17px;
+                            "><span style="
+                           font-size: 25px;
+                           ">See How Wistia Stacks Up
+                            </span><br><br>Download the G2 Fall 2020 Grid® Report to see how Wistia performed against YouTube, Vidyard, Vimeo, and more.<br><br><br> <span><a href="#" >Get more info</a></span></p>
+
+                            </div>
+                            <div class="col">
+                                <img src="..\img\SMB.png" style=" height: 250px;">
+                                <p style="
+                                margin-top: 3%;
+                            "><span style="
+                               font-size: 25px;
+                               ">Read Our Marketing Report
+                                </span>
+                                    <br><br>We launched a new study to uncover trends emerging from SMB marketers during the pandemic and explore how they're reaching new audiences.
+                                    <br><br><br> <span><a href="#" >Get more info</a></span></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fm">
+                    <div class="container" id="container">
+                        <div class="ct">
+                            <p style="
+                            color: white;
+                            font-size: 40px;
+                        ">Ready to get started with Wistia?</p><br><br>
+                            <button id="hbt3" type="button" class="btn btn-primary">Try for free</button>
+                            <button id="hbt4" type="button" class="btn btn-primary">Explore our plans</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+        </main>
+        <footer>
+            <div class="lf">
+                <div class="container" style="
+                padding-top: 5%;
+                padding-bottom: 2%;
+            ">
+                    <div class="row">
+                        <div class="col-4">
+                            <svg height="55" role="img" viewBox="-6.5 -8.9 145.45 38.4" class="jsx-3768675942 WistiaLogo"><title class="jsx-3768675942">Wistia</title><g fill="#ebebed" class="jsx-3768675942"><path d=" M15.37 19.26c-3.45.95-11.23.49-12.48.49H0l4.76-5.37c1.29-1.45 2-1.75 3.39-1.75s4.77.14 6.58 0A18.14 18.14 0 0022 10.64c2.95-1.86 3.54-3 3.54-3s1.05 8.53-10.17 11.62z " class="jsx-3768675942"></path><path d=" M25.19 4.19C25.73.9 23.87 0 23.87 0S24 2.68 19 3.25c-4.37.5-19 .12-19 .12l4.71 5.4a4 4 0 003.39 1.74 60.59 60.59 0 006.75-.1 15.8 15.8 0 008-2.7 6 6 0 002.34-3.52z " class="jsx-3768675942"></path></g><g class="jsx-3768675942"><path d=" M56.56.25h3.09l-7.9 19.61h-.82L44.76 4.51l-6.24 15.35h-.81v-.1L29.84.25H33l5.18 13 5.23-13h2.81l5.25 13zm6.06 19.53h3.07V.25h-3.07zM77.84 9.16l-2.1-1.24a8.29 8.29 0 01-2-1.55 2.31 2.31 0 01-.6-1.52 1.73 1.73 0 01.8-1.46 3.59 3.59 0 012.12-.59 6.23 6.23 0 014.36 2l.27.26V1.43l-.07-.05A7.91 7.91 0 0076.1 0a6 6 0 00-4.19 1.46 4.89 4.89 0 00-1.63 3.8A4.67 4.67 0 0071.14 8 9.72 9.72 0 0074 10.44l2.09 1.27c1.62 1 2.45 2.08 2.45 3.19a2.08 2.08 0 01-.8 1.68 3.11 3.11 0 01-2 .68 6.35 6.35 0 01-5-2.76l-.29-.36v4h.07A8.62 8.62 0 0075.71 20a5.83 5.83 0 004.13-1.49 5.07 5.07 0 001.6-3.87c0-2.21-1.21-4.06-3.6-5.48zM83.72 3h5.8v16.78h3.08V3h5.91V.22H83.72zm18.12 16.79h3.07V.25h-3.07zm25.31 0H124l-2.56-5.69h-8L111 19.78h-3.18l.1-.22L116.25.14h2.14zM117.3 4.93l-2.64 6.39h5.49z " fill="#ebebed" class="jsx-3768675942"></path></g></svg>
+                            <p style="
+                            color: white;
+                            font-size: 25px;
+                        "> Software to build your brand and business with video</p>
+                            <p style="
+                            color: white;
+                        ">Follow us: Facebook, LinkedIn, Twitter, Instagram</p>
+                            <img src="..\img\babyfooter.JPG">
+
+
+
+                        </div>
+                        <div class="col-1">
+                            <div class="vl"></div>
+                        </div>
+                        <div class="col">
+                            <p style="color:#a3a3ab">PRODUCT</p>
+                            <p style="color:white">Features</p>
+                            <p style="color:white">Pricing</p>
+                            <p style="color:white">Soapbox</p>
+                            <p style="color: rgb(62, 169, 245);">Start for free</p>
+
+                        </div>
+                        <div class="col">
+                            <p style="color:#a3a3ab">SERIES</p>
+                            <p style="color:white">Brandwagon</p>
+                            <p style="color:white">One, Ten, One Hundred</p>
+                            <p style="color:white">Talking Too Loud</p>
+                            <p style="color: rgb(242, 115, 152);">View all series</p>
+
+                        </div>
+                        <div class="col">
+                            <p style="color:#a3a3ab">ABOUT</p>
+                            <p style="color:white">Brand Affinity Marketing</p>
+                            <p style="color:white">Blog</p>
+                            <p style="color:white">Careers</p>
+                            <p style="color:white">Values</p>
+                            <p style="color:white">Brand Assets</p>
+                            <p style="color:white">Community</p>
+
+                        </div>
+                        <div class="col">
+                            <p style="color:#a3a3ab">SUPPORT</p>
+                            <p style="color:white">Account & Billing</p>
+                            <p style="color:white">Developers</p>
+                            <p style="color:white">Embedding & Sharing</p>
+                            <p style="color:white">Status</p>
+                            <p style="color:white">Contact Support</p>
+
+                        </div>
+
+
+                    </div>
+                </div>
+                <p style="
+                text-align: center;
+                color: #c4c4c8;
+            ">©2001–2021 All rights reserved. <a class="fp">Privacy</a> and <a class="fp">Terms.</a></p>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js " integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW " crossorigin="anonymous "></script>
+    </container>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+
+
+    <script src="C:\Users\MM\OneDrive\Documents\Wistia\js\script.js ">
+    </script>
+</body>
+
+</html>
